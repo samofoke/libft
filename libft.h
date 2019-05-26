@@ -10,7 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBDT_H
+#ifndef LIBFT_H
 # define LIBFT_H
 # include <unistd.h>
 # include <stdio.h>
+
+void	*ft_memset(void *b, int c, size_t n);
