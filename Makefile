@@ -6,7 +6,7 @@
 #    By: samofoke <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/21 08:53:41 by samofoke          #+#    #+#              #
-#    Updated: 2019/05/29 09:59:48 by samofoke         ###   ########.fr        #
+#    Updated: 2019/05/29 10:45:22 by samofoke         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CFLAGS = -Wall -Wextra -Werror
 
 CC = gcc
 
-SRC = *.c
+SRC = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c
 
 OBJECTS = $(SRC:.c=.o)
 
@@ -28,7 +28,7 @@ $(NAME):
 		ranlib $(NAME)
 
 clean:
-		rm -f $(NAME)
+		rm -f $(OBJECTS)
 
 fclean: clean
 		rm -f $(NAME)
