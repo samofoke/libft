@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 14:58:21 by samofoke          #+#    #+#             */
-/*   Updated: 2019/05/29 10:27:48 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/05/31 15:40:14 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,14 +16,14 @@ void	*ft_memset(void *b, int c, size_t n)
 {
 	unsigned char *x;
 	unsigned char y;
-	int index;
+	int i;
 
 	x = (unsigned char*)b;
 	y = (unsigned char)c;
-	index = 0;
+	i = 0;
 	while (n--)
 	{
-		x[index++] = y;
+		x[i++] = y;
 	}
 	return x;
 }
