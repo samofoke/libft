@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:22:59 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/02 19:29:33 by slimy            ###   ########.fr       */
+/*   Updated: 2019/06/02 20:14:16 by slimy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,8 +49,8 @@ int	main(void)
 	char b[10];
 	int c;
 
-	ft_strcpy(b, "abc");
-	c = ft_memcmp(b, "efg", 5);
+	ft_strcpy(b, 0);
+	c = ft_memcmp(b, 0, 5);
 	if (c < 0)
 		printf("less than.\n");
 	else if (c == 0)
