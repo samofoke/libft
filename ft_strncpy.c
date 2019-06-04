@@ -6,28 +6,11 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:55:33 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/03 22:34:35 by slimy            ###   ########.fr       */
+/*   Updated: 2019/06/04 13:04:35 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include "libft.h"
-#include <stdio.h>
-//#include <string.h>
-//#include <stdlib.h>
-
-size_t	ft_strlen(const char *s);
-
-size_t	ft_strlen(const char *s)
-{
-	size_t len;
-
-	len = 0;
-	while (s[len])
-	{
-		len++;
-	}
-	return (len);
-}
+#include "libft.h"
 
 char	*ft_strncpy(char *dst, const char *src, size_t n)
 {
@@ -50,14 +33,4 @@ char	*ft_strncpy(char *dst, const char *src, size_t n)
 		i++;
 	}
 	return (dst);
-}
-
-int	main(void)
-{
-	char s[20];
-
-	printf("%s\n", ft_strncpy(s, "the lord.", 10));
-	printf("%s\n", ft_strncpy(s, "matrix.", 8));
-	printf("%s\n", ft_strncpy(s, "**** if.", 12));
-	return 0;
 }

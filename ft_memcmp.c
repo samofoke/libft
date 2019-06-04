@@ -6,12 +6,11 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:22:59 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/02 20:14:16 by slimy            ###   ########.fr       */
+/*   Updated: 2019/06/04 13:09:27 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include "libft.h"
-#include <stdio.h>
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
@@ -29,36 +28,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return 0;
 }
-
-char	*ft_strcpy(char *dst, const char *src)
-{
-	int x;
-
-	x = 0;
-	while (src[x] != '\0')
-	{
-		dst[x] = src[x];
-		x++;
-	}
-	dst[x] = '\0';
-	return (dst);
-}
-
-int	main(void)
-{
-	char b[10];
-	int c;
-
-	ft_strcpy(b, 0);
-	c = ft_memcmp(b, 0, 5);
-	if (c < 0)
-		printf("less than.\n");
-	else if (c == 0)
-		printf("equal to.\n");
-	else
-		printf("greator than.\n");
-	return 0;
-}
-
-
-
