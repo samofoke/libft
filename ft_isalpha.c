@@ -1,28 +1,13 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/23 09:55:49 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/05 16:33:19 by samofoke         ###   ########.fr       */
+/*   Created: 2019/06/05 09:03:48 by samofoke          #+#    #+#             */
+/*   Updated: 2019/06/05 09:03:53 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 
-char	*ft_strcat(char *dst, const char *src)
-{
-	int i;
-	int len;
-
-	len = ft_strlen(dst);
-	i = 0;
-	while (src[i] != '\0')
-	{
-		dst[len++] = src[i++];
-	}
-	dst[len] = '\0';
-	return (dst);
-}

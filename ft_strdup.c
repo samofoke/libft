@@ -6,11 +6,11 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:23:33 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/04 13:03:22 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/05 09:07:19 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft"
+#include "libft.h"
 
 char	*ft_strdup(const char *src)
 {
