@@ -6,8 +6,13 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:56:45 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/05 09:05:06 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/07 17:17:01 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
+char	*ft_strchr(const char *s, int c)
+{
+
+}
