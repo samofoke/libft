@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 12:28:41 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/07 17:16:56 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/08 17:28:41 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ int		main(void)
 
   printf("%d\n",ft_memcmp(s1, s2, 20));
   return (0);
-}*/
+}
 //the test for strlcat.
 {
 	const char some[20] = "abc";
@@ -62,13 +62,15 @@ int		main(void)
 	if (strlcat(buf, some, sizeof(buf)) >= sizeof(buf))
 		printf("i think is working.i\n");
 	return 0;
-}
-/*{
+}*/
+/*
+//Test for strchr.
+{
 	char b[20];
 	char *x;
 
-	strcpy(b, "Hello");
-	x = strchr(b, 'l');
+	ft_strcpy(b, "Hello");
+	x = ft_strchr(b, 'H');
 	if (x == NULL)
 	{
 		printf("char is not found.\n");
@@ -79,3 +81,56 @@ int		main(void)
 	}
 	return 0;
 }*/
+	/*
+//test for strrchr.
+{
+	printf("%s\n", ft_strrchr("abcdeabcde", 'a'));
+	if (ft_strrchr("abcdeabcde", 'x') == NULL)
+		printf("NULL\n");
+	return 0;
+}
+
+//test for strstr.
+{
+	printf("%s\n", ft_strstr("find me in this string.!", "is"));
+	return 0;
+}
+*/
+/*
+//test for strnstr.
+{
+	const char *sample1 = "i am king i am alive.";
+	const char *sample2 = "k";
+	char *ptr;
+
+	ptr = ft_strnstr(sample1, sample2, 20);
+	printf("%s\n", ptr);
+}*/
+/*
+//test for memcmp.
+{
+    char buffer[80];
+    int retval;
+
+    strcpy( buffer, "a" );
+
+    retval = memcmp( buffer, "a", 1);
+	printf("%d\n", retval);
+    return 0;
+}*/
+//test for strcmp.
+{
+	printf("%d\n", ft_strcmp("a", "a"));
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
