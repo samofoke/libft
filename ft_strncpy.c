@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:55:33 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/05 16:27:46 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/10 23:46:05 by slimy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strncpy(char *dst, const char *src, size_t len)
 		return (dst);
 	while (i < len)
 	{
-		if (i < len)
+		if (i < s_len)
 		{
 			dst[i] = src[i];
 			i++;
