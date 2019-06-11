@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 12:28:41 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/08 17:28:41 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/11 10:55:26 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,13 +89,15 @@ int		main(void)
 		printf("NULL\n");
 	return 0;
 }
-
+*/
+/*
 //test for strstr.
 {
 	printf("%s\n", ft_strstr("find me in this string.!", "is"));
 	return 0;
 }
 */
+
 /*
 //test for strnstr.
 {
@@ -118,13 +120,20 @@ int		main(void)
 	printf("%d\n", retval);
     return 0;
 }*/
+/*
 //test for strcmp.
 {
 	printf("%d\n", ft_strcmp("a", "a"));
 	return 0;
 }
-
-
+*/
+/*
+// test for strncmp.
+{
+	printf("%d\n", ft_strncmp("d", "a", 3));
+	return 0;
+}
+*/
 
 
 
