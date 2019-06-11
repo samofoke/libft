@@ -6,8 +6,16 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 10:01:59 by samofoke          #+#    #+#             */
-/*   Updated: 2019/05/23 10:02:03 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/11 16:41:56 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
+int		ft_isascii(int c)
+{
+	if (c >= 0 && c <= 127)
+		return (1);
+	else
+		return (0);
+}

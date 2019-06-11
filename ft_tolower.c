@@ -6,8 +6,15 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 10:03:09 by samofoke          #+#    #+#             */
-/*   Updated: 2019/05/23 10:03:12 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/11 16:45:20 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
+int		ft_tolower(int c)
+{
+	if (c >= 65 && c <= 90)
+		return (c + 32);
+	return (c);
+}

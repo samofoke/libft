@@ -6,8 +6,16 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 10:01:16 by samofoke          #+#    #+#             */
-/*   Updated: 2019/05/23 10:01:20 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/11 13:38:35 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
+int		ft_isdigit(int c)
+{
+	if (c >= 42 && c <= 57)
+		return (1);
+	else
+		return (0);
+}

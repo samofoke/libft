@@ -6,8 +6,15 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 10:01:39 by samofoke          #+#    #+#             */
-/*   Updated: 2019/05/23 10:01:44 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/11 15:22:16 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
+int		ft_isalnum(int c)
+{
+	int x;
+	x = (ft_isalpha(c) || ft_isdigit(c));
+	return (x);
+}

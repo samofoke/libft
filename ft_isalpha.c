@@ -6,8 +6,16 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/05 09:03:48 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/05 09:03:53 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/11 13:13:34 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
+int		ft_isalpha(int c)
+{
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+		return (1);
+	else
+		return (0);
+}

@@ -6,12 +6,14 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 12:28:41 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/11 10:55:26 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/11 17:06:56 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdio.h>
+//#include <stdlib.h>
+//#include <ctype.h>
 
 int		main(void)
 //test for strcat.
@@ -134,6 +136,112 @@ int		main(void)
 	return 0;
 }
 */
+//test for isalpha.
+/*
+{
+	char c;
+	
+	printf("Enter a character: ");
+	
+	scanf("%c", &c);
+	
+	if (ft_isalpha(c) == 0)
+		printf("%c is not an alphabet.", c);
+	else
+		printf("%c is an alphabet.", c);
+	return 0;
+}
+*/
+//test for isdigits.
+/*{
+	char c;
+	
+	printf("Enter a character: ");
+	
+	scanf("%c",&c);
+	
+	if (ft_isdigit(c) == 0)
+		printf("%c is not a digit.",c);
+	else
+		printf("%c is a digit.",c);
+	return 0;
+}
+*/
+//test for isalnum.
+/*
+{
+	char c;
+    printf("Enter a character: ");
+    scanf("%c", &c);
+
+    if (isalnum(c) == 0)
+        printf("%c is not an alphanumeric character.", c);
+    else
+        printf("%c is an alphanumeric character.", c);
+
+    return 0;
+}
+*/
+//test for isascii.
+/*
+{
+	char s;
+
+	s = 0x20;
+	while (s <= 0x7f)
+	{
+		if (s == 0x7f)
+			break;
+		if (ft_isascii(s))
+			printf("the character is %c\n", s);
+		else
+			printf("no char found.");
+		printf("%#04x  ", s);
+		s++;
+	}
+	return 0;
+}
+*/
+//test for isprint.
+/*
+{
+	int s;
+	s = 1;
+	while (s <= 127)
+	{
+		if (&ft_isprint != 0)
+			printf("%c\n", s);
+		else
+			break;
+		s++;
+	}
+	return 0;
+}
+*/
+//test for toupper.
+/*
+{
+	char x;
+	x = 's';
+	printf("%c -> %c\n", x, ft_toupper(x));
+	return 0;
+}
+*/
+{
+	char y;
+	y = 'A';
+	printf("%c -> %c\n", y, ft_tolower(y));
+	return 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
