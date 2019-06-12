@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 10:01:39 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/11 15:22:16 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/12 09:59:15 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 int		ft_isalnum(int c)
 {
-	int x;
-	x = (ft_isalpha(c) || ft_isdigit(c));
-	return (x);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }
