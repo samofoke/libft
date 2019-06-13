@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:57:27 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/11 09:07:26 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/13 15:22:07 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strstr(const char *str, const char *substr)
 {
-	char *s;
-	size_t len;
+	char	*s;
+	size_t	len;
 
 	s = (char*)str;
 	len = ft_strlen((char*)substr);

@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:23:33 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/05 09:07:19 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/13 14:18:03 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strdup(const char *src)
 {
-	char *d;
-	int len;
+	char	*d;
+	int		len;
 
 	len = ft_strlen(src);
 	d = (char*)malloc(len + 1);

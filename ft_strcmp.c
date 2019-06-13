@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:59:10 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/08 17:28:35 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/13 15:24:46 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int		ft_strcmp(const char *s1, const char *s2)
 {
-	unsigned char *x1;
-	unsigned char *x2;
+	unsigned char	*x1;
+	unsigned char	*x2;
 
 	x1 = (unsigned char*)s1;
 	x2 = (unsigned char*)s2;

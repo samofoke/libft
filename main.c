@@ -6,13 +6,13 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 12:28:41 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 10:59:26 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/13 14:58:05 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdio.h>
-//#include <stdlib.h>
+#include <stdlib.h>
 //#include <ctype.h>
 
 int		main(void)
@@ -65,24 +65,24 @@ int		main(void)
 		printf("i think is working.i\n");
 	return 0;
 }*/
-/*
+
 //Test for strchr.
 {
 	char b[20];
 	char *x;
 
 	ft_strcpy(b, "Hello");
-	x = ft_strchr(b, 'H');
+	x = ft_strchr(b, '\0');
 	if (x == NULL)
 	{
-		printf("char is not found.\n");
+		printf("char is not found: %s\n", x);
 	}
 	else
 	{
 		printf("char is found: %s\n", x);
 	}
 	return 0;
-}*/
+}
 	/*
 //test for strrchr.
 {
@@ -237,8 +237,6 @@ int		main(void)
 }
 */
 //test for memalloc.
-{t 
-}
 
 
 
