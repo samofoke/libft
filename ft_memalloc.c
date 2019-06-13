@@ -1,38 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_memalloc.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/22 15:02:20 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 10:31:34 by samofoke         ###   ########.fr       */
+/*   Created: 2019/06/13 09:03:46 by samofoke          #+#    #+#             */
+/*   Updated: 2019/06/13 10:17:36 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dst, const void *src, size_t n)
+void	*ft_memalloc(size_t size)
 {
-	char *d;
-	const char *s;
-	size_t i;
+	void *area;
 
-	i = 0;
-	d = (char*)dst;
-	s = (const char*)src;
-	if (n <= 0)
-		return (d);
-	if (s < d)
-	{
-		i = n;
-		while (i)
-		{
-			d[i -1] = s[i - 1];
-			i--;
-		}
-	}
-	else
-		ft_memcpy(d, s, n);
-	return (d);
+	area = malloc(size);
+	if (area == NULL)
+		return (NULL);
+	ft_bzero(area, size);
+	return (area);
 }

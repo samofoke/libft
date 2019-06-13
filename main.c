@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 12:28:41 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/12 17:10:51 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/13 10:59:26 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ int		main(void)
 	return 0;
 }
 */
+/*
 //test fot strncpy.
 {
 	char d[20];
@@ -32,6 +33,7 @@ int		main(void)
 	printf("%s\n", ft_strncpy(d, "******", 2));
 	return 0;
 }
+*/
 /*
 //test for strncat.
 {
@@ -234,7 +236,9 @@ int		main(void)
 	return 0;
 }
 */
-
+//test for memalloc.
+{t 
+}
 
 
 
