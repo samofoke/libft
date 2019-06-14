@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 14:13:57 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 14:04:12 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/14 23:09:41 by slimy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,5 +46,15 @@ int		ft_isprint(int c);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
 void	*ft_memalloc(size_t size);
+void	ft_memdel(void **ap);
+void	ft_putchar(char c);
+void	ft_putstr(char const *s);
+void	ft_putnbr(int n);
+void	ft_putendl(char const *s);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char const *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
+void	ft_putendl_fd(char const *s, int fd);
+
 
 #endif
