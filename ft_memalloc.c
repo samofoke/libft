@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/13 09:03:46 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 13:51:29 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/15 11:34:31 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 void	*ft_memalloc(size_t size)
 {
-	void *area;
+	void *x;
 
-	area = malloc(size);
-	if (area == NULL)
+	x = malloc(size);
+	if (x == NULL)
 		return (NULL);
-	ft_bzero(area, size);
-	return (area);
+	ft_bzero(x, size);
+	return (x);
 }

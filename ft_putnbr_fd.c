@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slimy <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/14 23:17:51 by slimy             #+#    #+#             */
-/*   Updated: 2019/06/14 23:27:51 by slimy            ###   ########.fr       */
+/*   Created: 2019/06/15 10:00:01 by samofoke          #+#    #+#             */
+/*   Updated: 2019/06/15 10:00:08 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	long d;
-	char x;
-	long y;
+	long	d;
+	char	x;
+	long	y;
 
 	y = (long)n;
 	d = 1;

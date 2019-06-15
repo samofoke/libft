@@ -1,34 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_strdel.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/15 09:27:16 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 12:59:31 by samofoke         ###   ########.fr       */
+/*   Created: 2019/06/15 16:22:15 by samofoke          #+#    #+#             */
+/*   Updated: 2019/06/15 16:22:48 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr(int n)
+void	ft_strdel(char **as)
 {
-	long	y;
-
-	y = (long)n;
-	if (y == -2147483648)
-		ft_putstr("-2147483648");
-	else if (y < 0)
-	{
-		ft_putchar('-');
-		ft_putnbr(-y);
-	}
-	else if (y > 10)
-	{
-		ft_putnbr(y / 10);
-		ft_putchar(y % 10 + 48);
-	}
-	else
-		ft_putchar(y + 48);
 }

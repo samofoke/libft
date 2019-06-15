@@ -1,34 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/15 09:27:16 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 12:59:31 by samofoke         ###   ########.fr       */
+/*   Created: 2019/06/15 16:39:30 by samofoke          #+#    #+#             */
+/*   Updated: 2019/06/15 16:40:23 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr(int n)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	long	y;
-
-	y = (long)n;
-	if (y == -2147483648)
-		ft_putstr("-2147483648");
-	else if (y < 0)
-	{
-		ft_putchar('-');
-		ft_putnbr(-y);
-	}
-	else if (y > 10)
-	{
-		ft_putnbr(y / 10);
-		ft_putchar(y % 10 + 48);
-	}
-	else
-		ft_putchar(y + 48);
 }

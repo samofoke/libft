@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 12:28:41 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 14:58:05 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/15 13:36:46 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,6 +67,7 @@ int		main(void)
 }*/
 
 //Test for strchr.
+/*
 {
 	char b[20];
 	char *x;
@@ -83,7 +84,8 @@ int		main(void)
 	}
 	return 0;
 }
-	/*
+*/
+/*
 //test for strrchr.
 {
 	printf("%s\n", ft_strrchr("abcdeabcde", 'a'));
