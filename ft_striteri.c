@@ -6,12 +6,19 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:28:24 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 16:30:18 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/16 15:30:33 by slimy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_striteri(char *s, void (*f) (unsigned int, char*))
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
+	int i;
+
+	i = 0;
+	if (!s || !f)
+		return ;
+	while (*s)
+		f(i++, s++);
 }
