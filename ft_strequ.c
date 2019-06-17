@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:35:07 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 16:36:02 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 09:27:34 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,4 +14,12 @@
 
 int		ft_strequ(char const *s1, char const *s2)
 {
+	int	x;
+
+	if (!s1 || !s2)
+		return (0);
+	x = ft_strcmp(s1, s2);
+	if (x == 0)
+		return (1);
+	return (0);
 }
