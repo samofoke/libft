@@ -6,12 +6,13 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:41:21 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 16:42:29 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 09:53:10 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	**ft_strsplit(char const *s, char c)
+/*char	**ft_strsplit(char const *s, char c)
 {
 }
+*/

@@ -6,12 +6,13 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:42:42 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 16:43:14 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 09:53:39 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_itoa(int n)
+/*char	*ft_itoa(int n)
 {
 }
+*/

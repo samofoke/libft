@@ -6,12 +6,13 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:38:16 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 16:39:18 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 09:52:01 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strsub(char const *s, unsigned int start, size_t len)
+/*char	*ft_strsub(char const *s, unsigned int start, size_t len)
 {
 }
+*/

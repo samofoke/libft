@@ -6,13 +6,13 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:24:02 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/17 09:20:37 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 09:50:44 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	ft_striter(char *s, void (*f)(char *))
+void	ft_striter(char *s, void (*f)(char *))
 {
 	if (!s || !f)
 		return ;

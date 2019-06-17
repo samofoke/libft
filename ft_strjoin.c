@@ -6,12 +6,13 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:39:30 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 16:40:23 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 09:52:22 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+/*char	*ft_strjoin(char const *s1, char const *s2)
 {
 }
+*/
