@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:55:33 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 15:12:49 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 15:11:10 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_strncpy(char *dst, const char *src, size_t len)
 		{
 			dst[i] = src[i];
 			i++;
-			continue;
+			break;
 		}
 		dst[i] = '\0';
 		i++;

@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 15:02:20 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 15:09:11 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 14:51:17 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	i = 0;
 	d = (char*)dst;
 	s = (const char*)src;
-	if (n <= 0)
+	if (s == d)
 		return (d);
 	if (s < d)
 	{
