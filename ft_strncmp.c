@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:59:28 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 15:31:25 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/17 10:19:20 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (*x1 - *x2);
 	while (n-- && *x1 && *x2)
 	{
-		if ((*x1 > *x2) || (*x1 > *x2))
+		if ((*x1 > *x2) || (*x1 < *x2))
 			return (*x1 - *x2);
 		if (n == 0)
 			break ;
