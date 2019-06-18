@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 12:28:41 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/17 12:28:55 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/18 17:21:03 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,13 @@ int		main(void)
 */
 
 //test fot strncpy.
-{
+/*{
 	char d[20];
 	printf("%s\n", strncpy(d, "123456", 5));
 	printf("%s\n", strncpy(d, " ", 2));
 	return 0;
 }
-
+*/
 /*
 //test for strncat.
 {
@@ -238,7 +238,26 @@ int		main(void)
 	return 0;
 }
 */
-//test for memalloc.
+//test for itoa.
+{
+	int	a;
+	//char buffer[20];
+	printf("Enter a number: ");
+	scanf("%d\n", &a);
+
+	ft_itoa(a);
+	printf("binary value = %d\n", a);
+/*
+	ft_itoa(a);
+	printf("decimal value = %s\n", a);
+
+	ft_itoa(a);
+	printf("hexdecimal value = %s\n", a);
+
+	ft_itoa(a);
+	printf("octal value = %s\n", a);*/
+	return 0;
+}
 
 
 

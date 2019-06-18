@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 09:27:16 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/15 12:59:31 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/18 09:54:46 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putnbr(int n)
 		ft_putchar('-');
 		ft_putnbr(-y);
 	}
-	else if (y > 10)
+	else if (y >= 10)
 	{
 		ft_putnbr(y / 10);
 		ft_putchar(y % 10 + 48);
