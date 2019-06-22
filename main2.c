@@ -1,32 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   main2.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/23 09:56:30 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/22 03:32:00 by samofoke         ###   ########.fr       */
+/*   Created: 2019/06/22 03:00:44 by samofoke          #+#    #+#             */
+/*   Updated: 2019/06/22 04:05:13 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *dst, const char *src, size_t size)
+int		main(void)
 {
-	size_t	x;
-	size_t	y;
-
-	x = 0;
-	y = 0;
-	while (dst[x] && x < size)
-		x++;
-	while ((src[y]) && ((x + y + 1) < size))
-	{
-		dst[x + y] = src[y];
-		y++;
-	}
-	if (x != size)
-		dst[x + y] = '\0';
-	return (x + ft_strlen(src));
+	char *s1 = "oh no not the empty string !";
+	char *s2 = "";
+	size_t max = 0;
+	printf("%s\n", strnstr(s1, s2, max));
+	printf("%s\n", ft_strnstr(s1, s2, max));
+	return 0;
 }

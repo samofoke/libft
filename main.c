@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 12:28:41 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/18 17:21:03 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/22 03:00:20 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -239,15 +239,15 @@ int		main(void)
 }
 */
 //test for itoa.
-{
+/*{
 	int	a;
-	//char buffer[20];
+	char buffer[20];
 	printf("Enter a number: ");
 	scanf("%d\n", &a);
 
 	ft_itoa(a);
 	printf("binary value = %d\n", a);
-/*
+
 	ft_itoa(a);
 	printf("decimal value = %s\n", a);
 
@@ -255,9 +255,10 @@ int		main(void)
 	printf("hexdecimal value = %s\n", a);
 
 	ft_itoa(a);
-	printf("octal value = %s\n", a);*/
+	printf("octal value = %s\n", a);
 	return 0;
 }
+*/
 
 
 
