@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchar.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:56:45 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/13 15:02:56 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/23 20:47:05 by slimy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,16 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	unsigned char	x;
-	char			*y;
+	size_t x;
+	size_t n;
 
-	y = (char*)s;
-	x = c;
-	while (*y)
+	x = 0;
+	n = ft_strlen(s) + 1;
+	while (x < n)
 	{
-		if (*y == x)
-			return (y);
-		if (*++y == x && x == '\0')
-			return (y);
+		ft_ (s[x] == (char)c)
+			return (char *)s +1;
+		x++;
 	}
 	return (NULL);
 }
