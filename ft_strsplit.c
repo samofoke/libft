@@ -6,16 +6,16 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:41:21 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/23 20:48:47 by slimy            ###   ########.fr       */
+/*   Updated: 2019/06/24 08:00:05 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	cnt_wd(char *s, char c)
+static int		cnt_wd(char *s, char c)
 {
-	int	x;
-	int	n;
+	int			x;
+	int			n;
 
 	x = 0;
 	n = 0;
@@ -31,12 +31,12 @@ static int	cnt_wd(char *s, char c)
 	return (n);
 }
 
-char	**ft_strsplit(char const *s, char c)
+char			**ft_strsplit(char const *s, char c)
 {
-	size_t	x;
-	size_t	y;
-	size_t	z;
-	char	**sp;
+	size_t		x;
+	size_t		y;
+	size_t		z;
+	char		**sp;
 
 	x = 0;
 	y = 0;

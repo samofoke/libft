@@ -6,15 +6,15 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/15 16:42:42 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/23 20:48:14 by slimy            ###   ########.fr       */
+/*   Updated: 2019/06/24 07:52:13 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	get_digit(int n)
+static int		get_digit(int n)
 {
-	int			d;
+	int					d;
 	unsigned long int	x;
 	unsigned int		ln;
 
@@ -31,10 +31,10 @@ static int	get_digit(int n)
 	return (d);
 }
 
-static char	*get_num(char *sn, int n, int len)
+static char		*get_num(char *sn, int n, int len)
 {
-	int			i;
-	unsigned int		lns;
+	int				i;
+	unsigned int	lns;
 
 	i = len;
 	lns = (n < 0 ? -n : n);
@@ -49,9 +49,9 @@ static char	*get_num(char *sn, int n, int len)
 	return (sn);
 }
 
-char	*ft_itoa(int n)
+char			*ft_itoa(int n)
 {
-	char			*sn;
+	char		*sn;
 	int			num;
 
 	num = get_digit(n);
