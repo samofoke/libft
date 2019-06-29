@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 14:13:57 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/17 09:34:59 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/06/29 05:37:24 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,22 @@
 # include <stdio.h>
 # include <string.h>
 # include <stdlib.h>
+# 
 
+typedef	struct		s_list
+{
+	void			*content;
+	size_t			content_size;
+	struct	s_list	*next;
+}					t_list;
+/*
+typedef	struct		s_fd;
+{
+	int				fd;
+	char			*store;
+	struct	s_fd	*next;
+}					t_fd;
+*/
 void	*ft_memset(void *b, int c, size_t len);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
