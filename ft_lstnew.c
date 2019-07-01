@@ -1,25 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strequ.c                                        :+:      :+:    :+:   */
+/*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/15 16:35:07 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/24 15:29:06 by samofoke         ###   ########.fr       */
+/*   Created: 2019/06/30 12:21:42 by samofoke          #+#    #+#             */
+/*   Updated: 2019/07/01 16:59:20 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_strequ(char const *s1, char const *s2)
+t_list	*ft_lstnew(void const *content, size_t)
 {
-	int	x;
+	t_list *new;
 
-	if (!s1 || !s2)
-		return (0);
-	x = ft_strcmp(s1, s2);
-	if (x == 0)
-		return (1);
-	return (0);
+	if (!(new = (t_list*)malloc(sizeof(t_list))))
 }

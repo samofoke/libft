@@ -1,25 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strequ.c                                        :+:      :+:    :+:   */
+/*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/15 16:35:07 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/24 15:29:06 by samofoke         ###   ########.fr       */
+/*   Created: 2019/06/30 12:25:21 by samofoke          #+#    #+#             */
+/*   Updated: 2019/06/30 12:34:24 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_strequ(char const *s1, char const *s2)
+t_list	ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
-	int	x;
-
-	if (!s1 || !s2)
-		return (0);
-	x = ft_strcmp(s1, s2);
-	if (x == 0)
-		return (1);
-	return (0);
 }
