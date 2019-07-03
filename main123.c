@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/25 09:09:37 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/26 06:22:38 by slimy            ###   ########.fr       */
+/*   Updated: 2019/07/03 13:46:49 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -189,7 +189,7 @@ int		main(void)
 */
 
 //test for strequ.
-//
+/*
 {
 	char	s[6] = "hello";
 	char	x[6] = "world";
@@ -221,7 +221,17 @@ int		main(void)
 	}
 	return 0;
 }
-
+*/
+//test for lstnew bonus
+//
+{
+	char s[6] = "hello";
+	t_list *lst;
+	ft_putendl(s);
+	lst = ft_lstnew((void *)s, 5);
+	ft_putendl(lst);
+	return 0;
+}
 
 
 

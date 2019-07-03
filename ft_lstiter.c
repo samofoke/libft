@@ -6,7 +6,7 @@
 /*   By: samofoke <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/30 12:24:44 by samofoke          #+#    #+#             */
-/*   Updated: 2019/06/30 12:33:17 by samofoke         ###   ########.fr       */
+/*   Updated: 2019/07/03 13:08:24 by samofoke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,4 +14,9 @@
 
 void	ft_lstiter(t_list *lst, void (*f)(t_list *elem))
 {
+	while (lst)
+	{
+		f(lst);
+		lst = lst->next;
+	}
 }
